@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:glassmorphism/singup.dart';
@@ -16,7 +15,6 @@ class _loginState extends State<login> {
 
 bool Tap = false;
 var logging = SnackBar(content: Text("Logged In"));
-bool _obscureText = false;
 bool checkBox = true;
 TextEditingController emailController = TextEditingController();
 TextEditingController passwordController = TextEditingController();
